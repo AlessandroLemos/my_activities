@@ -1,8 +1,9 @@
-function inform(){
-    let name = document.getElementById('namez')
-    let sal = document.getElementById('sal')
-    
+let name = document.getElementById('namez')
+let sal = document.getElementById('sal')
 
+
+function inform(){
+    
     if (name.value == 0 || sal.value == 0) {
         alert("Please, insert your name and salary (It does not need to be real tough. Remember, this is just a test)")
     } else {
