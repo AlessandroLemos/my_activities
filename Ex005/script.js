@@ -5,7 +5,7 @@ function sum(){
             alert('Try again')
             } else {
         
-            document.getElementById('comment').innerHTML = `The answer is ${(n1+n2)}`
+            document.getElementById('comment').innerHTML = `The answer of ${n1} and ${n2} is ${(n1+n2)}`
 }
     
 }
