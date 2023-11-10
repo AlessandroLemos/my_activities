@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+}
+
+h1{
+    color: aliceblue;
+}
+
+body {
+    background:rgb(0, 119, 255);
+}
+
+div#first__div {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    border: 15px solid white;
+    border-radius: 20px;
+    background: white;
+}
+
+#botao {
+    margin-top: 15px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: x-large;
+    color: white;
+}
