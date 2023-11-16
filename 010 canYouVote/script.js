@@ -13,15 +13,16 @@ function vote(){
                 res.innerHTML = `Your age is ${can}, you are QUALIFIED to vote`
             }*/
             
-            if (can >= 18) {
+            if (can >= 18 && can < 60) {
                 res.innerHTML = `Your age is ${can}, you are QUALIFIED to vote`;
             } else if (can < 18) {
                 res.innerHTML = `Your age is ${can}, you are NOT QUALIFIED to vote`;
-            } else if (can >= 60) {
+            } else if (can >= 60 && can < 89) {
                 res.innerHTML = `Your age is ${can}, you are QUALIFIED to vote, however, it's totally optional for you!`;
-            } else if (can > 89) {
-                alert("Your age is too high, you have better things to do");
-            } else if (can <= 0) {
+            } else if (can > 89 && can < 122) {
+                alert(`Your age of ${can} years old is too high, you have better things to do`);
+                res.innerHTML = `You can vote, but why would you?`
+            } else if (can <= 0 || can > 122) {
                 alert("Please put a valid number of years");
             } else {
                 alert("Error");
