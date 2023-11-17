@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap Year</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="thisYear()">
+    <header>
+        <h1>Is this a leap year or not?</h1>
+    </header>
+    <section>
+       <div id="first__div">
+        <p>Please insert the year that you want to know if is a leap year or not:</p>
+        <p id="this year"></p>
+        <input type="number" name="The Year" id="year"><br><br>
+        <button onclick="leapYear()">Let's see...</button>
+        <h2 id="res"></h2>
+       </div>
+    </section>
+    <footer>
+        <p>&copy; Lusqueta 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
